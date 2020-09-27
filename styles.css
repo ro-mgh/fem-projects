@@ -1,0 +1,67 @@
+.main-form {
+    height: 460px;
+    width: 320px;
+}
+
+.rows {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+}
+
+
+.output-p {
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    padding: 10px 5px;
+    margin: 0px;
+}
+
+button {
+    font-size: xx-large;
+    font-weight: 200;
+    border-color: black;
+    border-width: 0.5px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(216,217,219);
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(228, 229, 233);
+}
+
+button:active {
+    background-color: rgb(190, 191, 194);
+}
+
+.last-button {
+    background-color:rgb(232,148,63);
+    color: white;
+}
+
+.last-button:hover {
+    background-color:rgb(227, 170, 114);
+}
+
+.last-button:active {
+    background-color:rgb(233, 135, 36);
+}
+
+.fifty-size {
+    width: 50%;
+}
+
+.seventyfive-size {
+    width: 75%;
+}
+
+.clear {
+    width: 50%;
+}
